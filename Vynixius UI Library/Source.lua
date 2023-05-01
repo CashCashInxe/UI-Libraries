@@ -4,7 +4,7 @@
      \ \  / /   _ _ __  ___  ___ _   _ ___  | |  | | | |   | |     _| |__  _ __ __ _ _ __ _   _ 
       \ \/ / | | | '_ \| \ \/ / | | | / __| | |  | | | |   | |    | | '_ \| '__/ _` | '__| | | |
        \  /| |_| | | | | |>  <| | |_| \__ \ | |__| |_| |_  | |____| | |_) | | | (_| | |  | |_| |
-        \/  \__, |_| |_|_/_/\_\_|\__,_|___/  \____/|_____| |______|_|_.__/|_|  \__,_|_|   \__, |
+        \/  \__, |_| |_|_/_/\_\_|\__,_|___/  \____/|_____| |______|_|_.__/|_|  \__,_|_|   \__, | -- modded by cashcash
              __/ |                                                                         __/ |
             |___/                                                                         |___/ 
 
@@ -136,7 +136,7 @@ function Library:Notify(settings, callback)
         BackgroundTransparency = 1,
         Position = UDim2.new(0, 11, 0.5, -8),
         Size = UDim2.new(1, -62, 0, 16),
-        Font = Enum.Font.SourceSans,
+        Font = Enum.Font.SciFi,
         Text = Notification.Title,
         TextColor3 = Color3.fromRGB(255, 255, 255),
         TextSize = 16,
@@ -148,7 +148,7 @@ function Library:Notify(settings, callback)
         BackgroundTransparency = 1,
         Position = UDim2.new(0, 11, 0, 7),
         Size = UDim2.new(1, -18, 1, -14),
-        Font = Enum.Font.SourceSans,
+        Font = Enum.Font.SciFi,
         TextColor3 = Color3.fromRGB(255, 255, 255),
         Text = "",
         TextSize = 14,
@@ -395,7 +395,7 @@ function Library:AddWindow(settings)
                             Name = "Title1",
                             BackgroundTransparency = 1,
                             Size = UDim2.new(0.5, 0, 1, 0),
-                            Font = Enum.Font.SourceSans,
+                            Font = Enum.Font.SciFi,
                             Text = settings.title[1].. " -",
                             TextColor3 = Library.Theme.TextColor,
                             TextSize = 20,
@@ -405,7 +405,7 @@ function Library:AddWindow(settings)
                             Name = "Title2",
                             BackgroundTransparency = 1,
                             Size = UDim2.new(0.5, 0, 1, 0),
-                            Font = Enum.Font.SourceSans,
+                            Font = Enum.Font.SciFi,
                             Text = settings.title[2],
                             TextColor3 = Library.Theme.ThemeColor,
                             TextSize = 20,
